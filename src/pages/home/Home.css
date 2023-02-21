@@ -1,0 +1,77 @@
+.home{
+    background: #000;
+    color: #fff;
+}
+
+
+.header-img{
+    width: 100%;
+}
+.header-social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 250px;
+    right: 50px;
+}
+.header-social a{
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: red !important;
+}
+.header-social a svg path{
+    color: #A4CC3C !important;
+    background: yellow;
+}
+
+.heading {
+    text-transform: capitalize;
+    text-transform: uppercase;
+    font-size: 28px;
+    padding: 1px 0;
+    margin: 15px 0;
+    border-bottom: 3px solid #A4CC3C;
+    width: fit-content;
+}
+
+.my-button{
+    font-size: 18px;
+    margin: 50px 0;
+    color: #fff;
+    background: #282c34;
+    border: 2px solid #A4CC3C;
+    padding: 6px 25px;
+}
+
+
+.proud-sponsors{
+    display: flex;
+    padding: 50px 0;
+    height: 100vh;
+    background: url('../../assets/Sponsors-bg.png') bottom no-repeat;
+    background-size: 100% 100%;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.slider {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.slider .slide {
+    min-width: 310px;
+    padding: 5px;
+}
+
+.slide img {
+    width: 100%;
+    padding: 5px;
+}
